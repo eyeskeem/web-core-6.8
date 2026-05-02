@@ -4,43 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Adaptive mockup</title>
+    <title>Adaptive mockup 6.8</title>
 </head>
 <body>
 
     <header>
-        <img src="icons/burger.svg" alt="">
-        <img src="icons/CPS.svg" alt="">
-        <img src="icons/repair.svg" alt="">
-        <img src="icons/checkstatus.svg" alt="">
-
-        <!--Для планшета-->
-        <img src="icons/Mobile.svg" alt="">
-        <img src="icons/chat.svg" alt="">
-        <img src="icons/profile.svg" alt="">
-
+        <img class="burger" src="icons/burger.svg" alt="">
+        <span class="vertical_bar"></span>
+        <img class="logo" src="icons/CPS.svg" alt="">
+        <img class="mobile" src="icons/Mobile.svg" alt="">
+        <img class="chat" src="icons/chat.svg" alt="">
+        <img class="profile" src="icons/profile.svg" alt="">
+        <span class="vertical_bar2"></span>
+        <img class="repair" src="icons/repair.svg" alt="">
+        <img class="checkstatus" src="icons/checkstatus.svg" alt="">
+        <div class="blue-line"></div>
     </header>
 
-     <h1 class="">Услуги и сервисы</h1>
+    <section class="section_h1">
+        <img class="h1_blue--bar" src="/icons/highlight.svg" alt="">
+        <h1 class="service_and_status">Услуги и сервисы</h1>
+    </section>
          
-    <nav>
-        <div class="navigation__repair--brands">Ремонируемые бренды</div>
-        <div class="navigation__repair--device">Ремонтируемые устройства</div>
-        <div class="navigation__price-on-service">Цена на услуги</div>
-        <div class="navigation__address">Адреса сервисных центров</div>
-        <div class="navigation__special-price">Специальные цены</div>
-        <div class="navigation__reviews">Отзывы</div>
+    <nav class="buttons">
+        <button class="navigation__repair--brands">Ремонируемые бренды</button>
+        <button class="navigation__repair--device">Ремонтируемые устройства</button>
+        <button class="navigation__price-on-service">Цена на услуги</button>
+        <button class="navigation__address">Адреса сервисных центров</button>
+        <button class="navigation__special-price">Специальные цены</button>
+        <button class="navigation__reviews">Отзывы</button>
     </nav>
 
-    <main>
-        <p>Мы являемся авторизованным сервисным центром по ремонту техники Dell. 
-            Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя. 
-        </p>
-        <p>
-            Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. 
-            Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
-        </p>
-        <img src="icons/CPS_png.png" alt="">
+    <main class="page">
+        <div class="text-content">
+            <p class="first_block">
+                Мы являемся авторизованным сервисным центром по ремонту техники Dell. 
+                Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя. 
+            </p>
+
+            <p class="second_block">
+                Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. 
+                Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
+            </p>
+
+            <div class="read_more">
+                <img class="read_more--arrow" src="icons/expand.svg" alt=""> 
+                <span class="read_more--text">Читать далее</span>
+            </div>
+        </div>
+        <img class="CPS_photo" src="icons/CPS_png.png" alt="">
     </main>
 
 </body>
