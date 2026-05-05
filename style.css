@@ -110,10 +110,13 @@ body {
     }
 
     .blue-line {
-        height: 2px;
+        position: fixed;
+        height: 1px;
+        width: 100%;
+        z-index: 100;
         margin-top: 88px;
-        color: blue;
-        background-color: blue;
+        color: #41f6d7;
+        background-color: #41f6d7;
     }
 
     section {
@@ -353,12 +356,15 @@ body {
     }
 
     .blue-line {
-        height: 2px;
+        position: fixed;
+        height: 1px;
+        width: 100%;
+        z-index: 100;
         margin-top: 88px;
-        color: blue;
-        background-color: blue;
+        color: #41f6d7;
+        background-color: #41f6d7;
     }
-
+    
     section {
         position: relative;
         height: 56px;
