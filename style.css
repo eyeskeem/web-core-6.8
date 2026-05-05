@@ -39,157 +39,7 @@ body {
 }
 
 
-@media(max-width: 320px) {
-
-/* .vertical_bar {
-    position: absolute;
-    margin-top: 28px;
-    margin-left: 84px;
-    width: 2px;
-    height: 32px;
-    background-color: #eaeaea;
-}
-
-.vertical_bar2 {
-    position: absolute;
-    margin-top: 28px;
-    margin-left: 626px;
-    width: 2px;
-    height: 32px;
-    background-color: #eaeaea;
-}
-
-.burger {
-    position: absolute;
-    margin-top: 24px;
-    margin-left: 24px;
-    width: 40px;
-    height: 40px;
-}
-
-.logo {
-    position: absolute;
-    margin-top: 18px;
-    margin-left: 106px;
-    width: 96px;
-    height: 50px;
-}
-
-.repair {
-    position: absolute;
-    margin-top: 24px;
-    margin-left: 648px;
-    width: 40px;
-    height: 40px;
-}
-
-.checkstatus {
-    position: absolute;
-    margin-top: 24px;
-    margin-left: 704px;
-    width: 40px;
-    height: 40px;
-}
-
-.mobile {
-    position: absolute;
-    margin-top: 24px;
-    margin-left: 454px;
-    width: 40px;
-    height: 40px;
-}
-
-.chat {
-    position: absolute;
-    margin-top: 24px;
-    margin-left: 510px;
-    width: 40px;
-    height: 40px;
-}
-
-.profile {
-    position: absolute;
-    margin-top: 24px;
-    margin-left: 566px;
-    width: 40px;
-    height: 40px;
-}
-
-nav {
-    background-color: #f8f8f8;
-}
-
-.service_and_status {
-    font-family: 'TTlakes';
-    font-size: 28px;
-    font-weight: 700;
-    margin-top: 88px;
-    margin-left: 16px;
-    background-color: #f8f8f8;
-}
-
-.navigation__repair--brands {
-    margin-left: 16px;
-    padding: 8px;
-    background-color: white;
-    border: 2px solid #B8FFEC;
-    border-radius: 6px;
-}
-
-.navigation__repair--device {
-    padding: 8px;
-    background-color: white;
-    border: 2px solid #B8FFEC;
-    border-radius: 6px;
-}
-
-.navigation__price-on-service {
-    padding: 8px;
-    background-color: white;
-    border: 2px solid #B8FFEC;
-    border-radius: 6px;
-}
-
-.navigation__address {
-    padding: 8px;
-    background-color: white;
-    border: 2px solid #B8FFEC;
-    border-radius: 6px; 
-}
-
-.navigation__special-price {
-    padding: 8px;
-    background-color: white;
-    border: 2px solid #B8FFEC;
-    border-radius: 6px;
-}
-
-.navigation__reviews {
-    padding: 8px;
-    background-color: white;
-    border: 2px solid #B8FFEC;
-    border-radius: 6px;  
-}
-
-main {
-    margin-top: 24px;
-    background-color: #f8f8f8;
-    font-family: 'TTlakes';
-    font-size: 14px;
-    font-weight: 400;
-}
-
-.first_block {
-    margin-left: 16px;
-}
-
-.second_block {
-    margin-left: 16px;
-}  */
-
-}
-
-@media(min-width: 321px) and (max-width: 768px){
+@media(min-width: 320px) and (max-width: 767px){
 
     body {
         background-color: #f8f8f8;
@@ -199,10 +49,236 @@ main {
         display: flex;
         justify-content: space-between;
         background-color: white;
-}
+    }
 
     .vertical_bar {
-        position: flex;
+        display: none;
+    }
+
+    .vertical_bar2 {
+        margin-top: 28px;
+        margin-bottom: 28px;
+        margin-left: 16.73px;
+        width: 2px;
+        height: 32px;
+        background-color: #eaeaea;
+    }
+
+    .burger {
+        margin-top: 24px;
+        margin-bottom: 24px;
+        margin-left: 16px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .logo {
+        margin-top: 18.59px;
+        margin-bottom: 18.59px;
+        margin-left: 16.73px;
+        width: 96px;
+        height: 50px;
+    }  
+
+    .repair {
+        margin-top: 24px;
+        margin-bottom: 24px;
+        margin-left: 20px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .checkstatus {
+        margin-top: 24px;
+        margin-bottom: 24px;
+        margin-left: 16px;
+        margin-right: 16px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .chat {
+        display: none;
+    }
+
+    .profile {
+        display: none;
+    }
+
+    .blue-line {
+        height: 2px;
+        margin-top: 88px;
+        color: blue;
+        background-color: blue;
+    }
+
+    section {
+        position: relative;
+        height: 56px;
+    }
+
+    .h1_blue--bar {
+        position: absolute;
+        margin-top: 24px;
+    }
+
+    .service_and_status {
+        font-family: 'TTlakes';
+        font-size: 28px;
+        font-weight: 700;
+        margin-top: 24px;
+        margin-left: 12px;
+    }
+
+    nav {
+        position: relative;
+        margin-top: 32px;
+    }
+
+    .buttons {
+        width: 100%;
+        overflow-x: auto;      
+        overflow-y: hidden;  
+        white-space: nowrap; 
+        scrollbar-width: none;
+    }
+
+    .buttons_nav-scroll {
+        display: flex;
+        gap: 12px;
+    }
+
+    .navigation__repair--brands:focus, 
+    .navigation__repair--device:focus, 
+    .navigation__price-on-service:focus, 
+    .navigation__address:focus, 
+    .navigation__special-price:focus, 
+    .navigation__reviews:focus {
+        padding: 6px;
+        border: 2px solid #B8FFEC;
+        border-radius: 6px;
+        outline: none;
+        background-color: white;
+    }
+
+    .navigation__repair--brands {
+        margin-left: 16px;
+        padding: 8px;
+        background-color: #f8f8f8;
+        border: 2px none;
+        border-radius: 6px;
+        font-family: 'TTlakes';
+        font-size: 16px;
+        font-weight: 100;
+    }
+
+    .navigation__repair--device {
+        padding: 8px;
+        background-color: #f8f8f8;
+        border: 2px none;
+        border-radius: 6px;
+        font-family: 'TTlakes';
+        font-size: 16px;
+        font-weight: 100;
+        
+    }
+
+    .navigation__price-on-service {
+        padding: 8px;
+        background-color: #f8f8f8;
+        border: 2px none;
+        border-radius: 6px;
+        font-family: 'TTlakes';
+        font-size: 16px;
+        font-weight: 100;
+    }
+
+    .navigation__address {
+        padding: 8px;
+        background-color: #f8f8f8;
+        border: 2px none;
+        border-radius: 6px; 
+        font-family: 'TTlakes';
+        font-size: 16px;
+        font-weight: 100;
+    }
+
+    .navigation__special-price {
+        padding: 8px;
+        background-color: #f8f8f8;
+        border: 2px none;
+        border-radius: 6px;
+        font-family: 'TTlakes';
+        font-size: 16px;
+        font-weight: 100;
+    }
+
+    .navigation__reviews {
+        padding: 8px;
+        background-color: #f8f8f8;
+        border: 2px none;
+        border-radius: 6px;  
+        font-family: 'TTlakes';
+        font-size: 16px;
+        font-weight: 100;
+    }
+
+    .page{
+        margin-top: 24px;
+        margin-left: 16px;
+        margin-right: 16px;
+        font-family: 'TTlakes';
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .text-content {
+        width: 100%;
+    }
+
+    .second_block {
+        display: none;
+    }
+
+    .read_more {
+        margin-top: 16px;
+    }
+
+    .read_more--text {
+        position: absolute;
+        margin-left: 8px;
+        font-family: 'TTlakes';
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .CPS_photo {
+        width: 100%;
+        margin-top: 16px;
+    }
+}
+
+
+
+
+
+@media(min-width: 768px) and (max-width: 1119px){
+
+    body {
+        background-color: #f8f8f8;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+    }
+
+    .vertical_bar {
         margin-top: 28px;
         margin-bottom: 28px;
         margin-left: 20px;
@@ -212,7 +288,6 @@ main {
     }
 
     .vertical_bar2 {
-        position: flex;
         margin-top: 28px;
         margin-bottom: 28px;
         margin-left: 20px;
@@ -222,7 +297,6 @@ main {
     }
 
     .burger {
-        position: flex;
         margin-top: 24px;
         margin-bottom: 24px;
         margin-left: 24px;
@@ -231,7 +305,6 @@ main {
     }
 
     .logo {
-        position: flex;
         margin-top: 18.59px;
         margin-bottom: 18.59px;
         margin-left: 20.73px;
@@ -240,7 +313,6 @@ main {
     }  
 
     .repair {
-        position: flex;
         margin-top: 24px;
         margin-bottom: 24px;
         margin-left: 20px;
@@ -249,7 +321,6 @@ main {
     }
 
     .checkstatus {
-        position: flex;
         margin-top: 24px;
         margin-bottom: 24px;
         margin-left: 16px;
@@ -258,7 +329,6 @@ main {
     }
 
     .mobile {
-        position: flex;
         margin-top: 24px;
         margin-bottom: 24px;
         margin-left: 250.73px;
@@ -267,7 +337,6 @@ main {
     }
 
     .chat {
-        position: flex;
         margin-top: 24px;
         margin-bottom: 24px;
         margin-left: 16px;
@@ -276,7 +345,6 @@ main {
     }
 
     .profile {
-        position: flex;
         margin-top: 24px;
         margin-bottom: 24px;
         margin-left: 16px;
@@ -310,7 +378,22 @@ main {
     }
 
     nav {
+        display: flex;
         position: relative;
+        margin-top: 32px;
+    }
+
+    .buttons {
+    width: 100%;
+    overflow-x: auto;      
+    overflow-y: hidden;  
+    white-space: nowrap; 
+    scrollbar-width: none;
+    }
+
+    .buttons_nav-scroll {
+    display: flex;
+    gap: 12px;
     }
 
     .navigation__repair--brands:focus, 
@@ -324,15 +407,17 @@ main {
     border-radius: 6px;
     outline: none;
     background-color: white;
-}
+    }
 
     .navigation__repair--brands {
-        margin-top: 32px;
         margin-left: 16px;
         padding: 8px;
         background-color: #f8f8f8;
         border: 2px none;
         border-radius: 6px;
+        font-family: 'TTlakes';
+        font-size: 16px;
+        font-weight: 100;
     }
 
     .navigation__repair--device {
@@ -340,6 +425,9 @@ main {
         background-color: #f8f8f8;
         border: 2px none;
         border-radius: 6px;
+        font-family: 'TTlakes';
+        font-size: 16px;
+        font-weight: 100;
         
     }
 
@@ -348,6 +436,9 @@ main {
         background-color: #f8f8f8;
         border: 2px none;
         border-radius: 6px;
+        font-family: 'TTlakes';
+        font-size: 16px;
+        font-weight: 100;
     }
 
     .navigation__address {
@@ -355,6 +446,9 @@ main {
         background-color: #f8f8f8;
         border: 2px none;
         border-radius: 6px; 
+        font-family: 'TTlakes';
+        font-size: 16px;
+        font-weight: 100;
     }
 
     .navigation__special-price {
@@ -362,6 +456,9 @@ main {
         background-color: #f8f8f8;
         border: 2px none;
         border-radius: 6px;
+        font-family: 'TTlakes';
+        font-size: 16px;
+        font-weight: 100;
     }
 
     .navigation__reviews {
@@ -369,6 +466,9 @@ main {
         background-color: #f8f8f8;
         border: 2px none;
         border-radius: 6px;  
+        font-family: 'TTlakes';
+        font-size: 16px;
+        font-weight: 100;
     }
 
     .page{
@@ -376,18 +476,15 @@ main {
         grid-template-columns: repeat(2, 1fr);
         margin-top: 32px;
         margin-left: 24px;
+        margin-right: 16px;
+        gap: 48px;
         font-family: 'TTlakes';
         font-size: 14px;
         font-weight: 400;
     }
 
     .text-content {
-        height: 160px;
-        width: 312px;
-    }
-
-    .first_block {
-
+        width: 100%;
     }
 
     .second_block {
@@ -399,21 +496,16 @@ main {
         margin-top: 10px;
     }
 
-    .read_more--arrow {
-        position: absolute;
-    }
-
     .read_more--text {
         position: absolute;
-        margin-left: 25px;
+        margin-left: 8px;
         font-family: 'TTlakes';
         font-size: 16px;
         font-weight: 500;
     }
 
     .CPS_photo {
-        width: 360px;
-        height: 208px;
-}
+        width: 100%;
+    }
 
 }
