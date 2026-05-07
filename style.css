@@ -309,6 +309,7 @@ nav {
 }
 
 .second_block {
+    display: block;
     margin-top: 10px;
 }
 
