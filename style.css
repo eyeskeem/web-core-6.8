@@ -333,7 +333,7 @@ nav {
 }
 
 
-@media(min-width: 1119px) and (max-width: 1600px) {
+@media(min-width: 1120px) and (max-width: 1600px) {
 
 body {
     background-color: #f8f8f8;
@@ -386,16 +386,18 @@ section {
 
 nav {
     display: flex;
+    width: 100%;
     margin-top: 8px;
-    margin-left: 32px;
 }
 
 .buttons {
     width: 100%;
-    overflow-x: auto;      
-    overflow-y: hidden;  
-    white-space: nowrap; 
-    scrollbar-width: none;
+}
+
+.buttons_scroll {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 32px;
 }
 
 .navigation:focus {
@@ -407,6 +409,7 @@ nav {
 }
 
 .navigation {
+    white-space: nowrap;
     margin-left: 16px;
     padding: 8px;
     background-color: #f8f8f8;
